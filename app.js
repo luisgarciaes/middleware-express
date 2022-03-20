@@ -13,7 +13,7 @@ app.get('/uno', (req,res)=>{
 });
 
 app.get('/prueba', (req,res)=>{
-    res.send('Hello world from route Prueba 🔨') // localhost:3000/prueba
+    res.send('<h1 style="text-align:center">Ruta Prueba 🛠</h1>') // localhost:3000/prueba
 
     
 });
